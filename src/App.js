@@ -1,25 +1,23 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
+import User from './user/user.jsx'
+import './App.css'; 
 
-function App() {
+const App = () => {
+  const userData = {
+    firstName: "Maximilian",
+    lastName: "Schwarzmüller",
+    title: "INSTRUCTOR"
+  };
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="app-container">
+      <h1 className="app-title">TIME TO PRACTICE</h1>
+      <p className="app-subtitle">
+        Welcome on board of this course! You got this 
+      </p>
+      <User userData={userData} />
     </div>
   );
-}
+};
 
 export default App;

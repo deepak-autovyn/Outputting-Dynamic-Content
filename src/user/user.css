@@ -1,0 +1,28 @@
+.user-card {
+  background-color: #1e1e2f;
+  color: white;
+  padding: 2rem;
+  border-radius: 0.5rem;
+  text-align: center;
+  width: 300px;
+  margin: 0 auto;
+}
+
+.user-name {
+  margin-bottom: 0.5rem;
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+
+.user-title {
+  background-color: #f5d76e;
+  color: #333;
+  font-weight: bold;
+  padding: 0.5rem;
+  border-radius: 0.25rem;
+  display: inline-block;
+  min-width: 150px;
+  text-transform: uppercase;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+}
