@@ -1,4 +1,4 @@
-.app-container {
+/* .app-container {
   margin-top: 2rem;
   text-align: center;
   background-color: #1e1e2f;
@@ -21,4 +21,24 @@
   color: #ccc;
   margin-bottom: 1rem;
   font-size: 1.1rem;
+} */
+
+
+.app {
+  background-color: #2c2c2c;
+  color: #fff;
+  padding: 2rem;
+  width: 500px;
+  margin: 2rem auto;
+  border-radius: 10px;
+  font-family: sans-serif;
 }
+
+.course-container {
+  background-color: #f6d29f;
+  color: #000;
+  padding: 0.5rem;
+  margin: 1rem 0;
+  border-radius: 5px;
+}
+
